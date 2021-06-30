@@ -12,6 +12,8 @@ console.log(favoriteColor);
 
 var message = "La tua password è: ";
 
+var number = "21";
+
 var passwordPlaceholder = document.getElementById("password");
 
-passwordPlaceholder.innerHTML = message + name + surname + favoriteColor;
+passwordPlaceholder.innerHTML = message + name + surname + favoriteColor + number;

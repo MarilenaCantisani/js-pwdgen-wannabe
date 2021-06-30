@@ -1,0 +1,18 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* BODY */
+.row-password-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:lightcoral; 
+}
+#password {
+    color: white;
+    font-size: 60px;
+}
