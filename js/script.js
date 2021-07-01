@@ -14,6 +14,6 @@ var message = "La tua password è: ";
 
 var number = "21";
 
-var passwordPlaceholder = document.getElementById("password");
+var password = document.getElementById("password");
 
-passwordPlaceholder.innerHTML = message + name + surname + favoriteColor + number;
+password.innerHTML = message + name + surname + favoriteColor + number;
